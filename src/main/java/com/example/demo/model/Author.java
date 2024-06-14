@@ -24,4 +24,6 @@ public class Author {
     @OneToMany(mappedBy = "author")
     private Set<BookAuthor> bookAuthors = new HashSet<>();
 
+    public Author(long l, String authorName) {
+    }
 }
