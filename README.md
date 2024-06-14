@@ -29,6 +29,8 @@ mvn spring-boot:run
 ## Api-documentation
 Below are the endpoints available in this Library Management System:
 
+```console
+
 Books
 Get all books: GET /api/books
 Add a book: POST /api/books - Requires a JSON body with book details.
@@ -37,6 +39,8 @@ Authors
 Get all authors: GET /api/authors
 Add an author: POST /api/authors - Requires a JSON body with author details.
 Get an author by ID: GET /api/authors/{id}
+
+```
 
 ## Running-tests
 Execute the following command to run the unit tests:
